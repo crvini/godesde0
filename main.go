@@ -24,6 +24,8 @@ func main() {
 	// 	fmt.Printf("%s \n", os)
 	// }
 
-	mayorOno, number := ejercicios.ConvertidorEjercicio("101")
-	println(mayorOno, number)
+	// mayorOno, number := ejercicios.ConvertidorEjercicio("101")
+	// println(mayorOno, number)
+	//teclado.IngresoNumeros()
+	ejercicios.Multiplicar()
 }
