@@ -12,11 +12,16 @@ var err error
 
 func Multiplicar() {
 	scanner := bufio.NewScanner(os.Stdin)
-	fmt.Println("Ingrese un número para multiplicar :")
-	if scanner.Scan() {
-		numero1, err = strconv.Atoi(scanner.Text())
-		if err != nil {
-			panic("El dato ingresado es incorrecto" + err.Error())
+
+	for {
+		fmt.Println("Ingrese un número para multiplicar :")
+		if scanner.Scan() {
+			numero1, err = strconv.Atoi(scanner.Text())
+			if err != nil {
+				continue
+			} else {
+				break
+			}
 		}
 	}
 
