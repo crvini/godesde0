@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/crvini/godesde0/ejercicios"
+	maps "github.com/crvini/godesde0/mapas"
 )
 
 func main() {
@@ -27,5 +27,13 @@ func main() {
 	// mayorOno, number := ejercicios.ConvertidorEjercicio("101")
 	// println(mayorOno, number)
 	//teclado.IngresoNumeros()
-	ejercicios.Multiplicar()
+	//fmt.Println(ejercicios.Multiplicar())
+	//files.LeoArchvio()
+	//funciones.Calculos()
+	//funciones.LlamarClosure()
+	//funciones.Exponencial(2)
+	//arreglos_slices.MuestroArreglos()
+	//arreglos_slices.MuestroSlice()
+	//arreglos_slices.Capacidad()
+	maps.MostrarMapas()
 }
